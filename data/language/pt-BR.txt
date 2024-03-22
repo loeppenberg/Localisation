@@ -874,7 +874,7 @@ STR_1483    :“Eu me sinto muito mal”
 STR_1484    :“Eu quero ir em algo mais emocionante do que {STRINGID}”
 STR_1485    :“{STRINGID} parece muito intenso para mim”
 STR_1486    :“Eu não terminei meu {STRINGID} ainda”
-STR_1487    :“Só de olhar para {STRINGID} já me sento mal”
+STR_1487    :“Só de olhar para {STRINGID} já me sinto mal”
 STR_1488    :“Eu não vou pagar tudo isso para ir em {STRINGID}”
 STR_1489    :“Eu quero ir para casa”
 STR_1490    :“{STRINGID} tem um preço bom”
@@ -1737,12 +1737,12 @@ STR_2382    :Terreno
 STR_2383    :Água
 STR_2384    :{WINDOW_COLOUR_2}Seu objetivo:
 STR_2385    :{BLACK}Nenhum
-STR_2386    :{BLACK}Ter pelo menos {COMMA16} visitantes em seu parque até o fim de {MONTHYEAR}, com classificação de parque de pelo menos 600
+STR_2386    :{BLACK}Ter pelo menos {COMMA32} visitantes em seu parque até o fim de {MONTHYEAR}, com classificação de parque de pelo menos 600
 STR_2387    :{BLACK}Alcançar um valor do parque de pelo menos {POP16}{POP16}{CURRENCY} até o fim de {PUSH16}{PUSH16}{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
 STR_2388    :{BLACK}Divirta-se!
 STR_2389    :{BLACK}Construir o melhor {STRINGID} que puder!
 STR_2390    :{BLACK}Ter 10 tipos de montanha-russa diferentes operando em seu parque, cada uma com um valor de emoção de pelo menos 6.00
-STR_2391    :{BLACK}Ter pelo menos {COMMA16} visitantes em seu parque. Você não pode deixar a classificação de parque abaixo de 700 em momento algum!
+STR_2391    :{BLACK}Ter pelo menos {COMMA32} visitantes em seu parque. Você não pode deixar a classificação de parque abaixo de 700 em momento algum!
 STR_2392    :{BLACK}Alcançar uma receita mensal de ingressos de atrações de pelo menos {POP16}{POP16}{CURRENCY}
 STR_2393    :{BLACK}Ter 10 tipos de montanha-russa diferentes operando em seu parque, cada uma com um comprimento mínimo de {LENGTH}, e um valor de emoção de no mínimo 7.00
 STR_2394    :{BLACK}Terminar de construir todas as 5 montanhas-russas parcialmente construídas neste parque, projetando-as para alcançar um valor de emoção de pelo menos {POP16}{POP16}{COMMA2DP32} cada
@@ -2097,39 +2097,6 @@ STR_3008    :{PEARLAQUA}ABC
 STR_3009    :{PALESILVER}ABC
 STR_3010    :Incapaz de carregar arquivo…
 STR_3011    :Arquivo contém dados inválidos
-STR_3012    :Estilo Carrinho de Bate-Bate
-STR_3013    :Estilo Órgão de Parque de Diversões
-STR_3014    :Estilo Fanfarra Romana
-STR_3015    :Estilo Oriental
-STR_3016    :Estilo Marciano
-STR_3017    :Estilo Bateria da Selva
-STR_3018    :Estilo Egípcio
-STR_3019    :Estilo Brinquedolândia
-STR_3020    :
-STR_3021    :Estilo Espaço
-STR_3022    :Estilo Horror
-STR_3023    :Estilo Techno
-STR_3024    :Estilo Suave/Calmo
-STR_3025    :Estilo Verão
-STR_3026    :Estilo Água
-STR_3027    :Estilo Oeste Selvagem
-STR_3028    :Estilo Jurássico
-STR_3029    :Estilo Rock
-STR_3030    :Estilo Ragtime
-STR_3031    :Estilo Fantasia
-STR_3032    :Estilo Rock 2
-STR_3033    :Estilo Gelo
-STR_3034    :Estilo Neve
-STR_3035    :Música Personalizada 1
-STR_3036    :Música Personalizada 2
-STR_3037    :Estilo Medieval
-STR_3038    :Estilo Urbano
-STR_3039    :Estilo Órgão
-STR_3040    :Estilo Mecânico
-STR_3041    :Estilo Moderno
-STR_3042    :Estilo Piratas
-STR_3043    :Estilo Rock 3
-STR_3044    :Estilo Doce
 STR_3045    :Selecione o estilo de música para tocar
 STR_3047    :Autoridades locais proíbem a demolição ou modificações nesta atração
 STR_3048    :Campanhas de marketing proibidas pelas autoridades locais
@@ -2356,7 +2323,7 @@ STR_3305    :{WINDOW_COLOUR_2}Receita Mensal:
 STR_3306    :{WINDOW_COLOUR_2}Lucro Mensal:
 STR_3307    :{WINDOW_COLOUR_2}Comprimento Mínimo:
 STR_3308    :{WINDOW_COLOUR_2}Classificação de emoção:
-STR_3309    :{WINDOW_COLOUR_2}{COMMA16}
+STR_3309    :{WINDOW_COLOUR_2}{COMMA32}
 STR_3310    :{WINDOW_COLOUR_2}{LENGTH}
 STR_3311    :{WINDOW_COLOUR_2}{COMMA2DP32}
 STR_3312    :{WINDOW_COLOUR_2}Atrações em ordem de preservação:
@@ -3684,6 +3651,46 @@ STR_6579    :Freios bloqueadores serão configurados para a velocidade padrão q
 STR_6580    :Redefinir
 STR_6581    :Tem certeza que quer redefinir todas as teclas de atalho nessa aba?
 STR_6582    :Abrir janela de atalhos do teclado
+STR_6583    :{WINDOW_COLOUR_2}Trens Invertidos
+STR_6584    :Selecione para que os trens operem de costas
+STR_6585    :Não é possível fazer alterações…
+STR_6586    :OpenRCT2
+STR_6587    :A música tema do OpenRCT2 é uma criação de Allister Brimble,{NEWLINE}licenciada com CC BY-SA 4.0.
+STR_6588    :Agradecemos a Herman Riddering por nos deixar gravar a 35er Voigt.
+STR_6589    :Mostrar botões de janela à esquerda
+STR_6590    :Mostra os botões de janela (como o de fechar a janela) à esquerda do topo, em vez de à direita.
+STR_6591    :O funcionário está atualmente consertando uma atração e não pode ser demitido.
+STR_6592    :O funcionário está atualmente inspecionando uma atração e não pode ser demitido.
+STR_6593    :Remover cercas do parque
+STR_6594    :Inspetor de azulejo: Mudar inclinação da parede
+STR_6595    :{WINDOW_COLOUR_2}Autor: {BLACK}{STRING}
+STR_6596    :{WINDOW_COLOUR_2}Autores: {BLACK}{STRING}
+STR_6597    :Parâmetro inválido
+STR_6598    :Valor fora do intervalo
+STR_6599    :Elemento fantasma não encontrado
+STR_6600    :Balão não encontrado
+STR_6601    :Funcionário não encontrado
+STR_6602    :Atração não encontrada
+STR_6603    :Objeto de entrada de atração não encontrado
+STR_6604    :Jogador não encontrado
+STR_6605    :Elemento de entrada não encontrado
+STR_6606    :Elemento de superfície não encontrado
+STR_6607    :Elemento de azulejo não encontrado
+STR_6608    :Elemento de pista não encontrado
+STR_6609    :Bloco de pista não encontrado
+STR_6610    :Elemento de caminho não encontrado
+STR_6611    :Elemento de muro não encontrado
+STR_6612    :Elemento de banner não encontrado
+STR_6613    :Recarregar objeto
+STR_6614    :Não é possível mudar o preço de entrada do parque
+STR_6615    :A pista nesse azulejo precisa de água
+STR_6616    :Ação inválida para esse tipo de funcionário
+STR_6617    :Não é possível trocar o elemento do azulejo com ele mesmo
+STR_6618    :Não é possível restringir ou liberar o objeto…
+STR_6619    :Tipo de objeto não pode ser restringido!
+STR_6620    :Objeto não encontrado!
+STR_6621    :Restringir
+STR_6622    :Restringir objeto ao Editor de Cenário e ao modo sandbox.
 
 #############
 # Scenarios #
@@ -4345,7 +4352,7 @@ STR_DTLS    :Você é um bem-sucedido magnata dos negócios em longas férias qu
 <South America - Inca Lost City>
 STR_SCNR    :América do Norte - Cidade Perdida Inca
 STR_PARK    :Fundadação da Cidade Perdida
-STR_DTLS    :Para dar um impulso adicional ao turismo local você deve construir um parque que está em sintonia com seus arredores, e tem restrições de altura.
+STR_DTLS    :Para dar um impulso adicional ao turismo local você deve construir um parque que está em sintonia com seus arredores.
 
 <South America - Rain Forest Plateau>
 STR_SCNR    :América do Sul - Planalto da Floresta Tropical

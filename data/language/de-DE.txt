@@ -147,7 +147,7 @@ STR_0560    :
 STR_0561    :
 STR_0562    :Angetriebene Wagen fahren auf einer mehrstöckigen Strecke mit gruseliger Landschaft und Spezialeffekten
 STR_0563    :Die Fahrgäste sitzen in komfortablen Wagen mit einfachen Beckenhalterungen, in denen sie gigantische, gemäßigte Gefälle erleben, aber auch viel Zeit oben „in der Luft“ verbringen
-STR_0564    :Diese Holzachterbahn ist schnell, rauh, laut und gibt einem das Gefühl, außer Kontrolle zu sein, wobei man häufig „in der Luft“ ist
+STR_0564    :Diese Holzachterbahn ist schnell, rau, laut und gibt einem das Gefühl, außer Kontrolle zu sein, wobei man häufig „in der Luft“ ist
 STR_0565    :Eine einfache Holzachterbahn mit nur leichten Gefällen und Kurven, bei der die Wagen nur mit Hilfe von seitlichen Führungsrollen und der Schwerkraft auf der Strecke gehalten werden
 STR_0566    :Voneinander unabhängige Achterbahnwagen rasen auf einer engen Zickzack-Strecke mit scharfen Kurven und kurzen, starken Gefällen
 STR_0567    :Die Passagiere befinden sich in Sitzen, die an beiden Seiten der Bahn hängen, auf der sie über Kopf steile Gefälle hinunterrasen und verschiedene Inversionsfiguren erleben
@@ -177,10 +177,10 @@ STR_0598    :Umgekehrte Achterbahnzüge werden aus der Station beschleunigt und 
 STR_0599    :Eine kompakte Achterbahn mit unabhängigen Wagen und gemäßigten, sich windenden Gefällen
 STR_0600    :Angetriebene Minenzüge fahren auf einer gemäßigten und verwundenen Strecke
 STR_0602    :Achterbahnzüge werden aus der Station mit Hilfe von linearen Induktionsmotoren beschleunigt und rasen durch gewundene Überkopfteile
-STR_0603    :Eine Achterbahn im Holzstil mit einer Stahlschiene, die steile Abfahrten und Inversionen ermöglicht.
-STR_0604    :Die Fahrgäste fahren in einer Einzelreihe auf einer engen Einschienenstrecke, wobei sie durch enge Inversionen und Richtungswechsel rasen.
-STR_0605    :Die Fahrgäste rodeln eine sich schlängelnde Stahlbahn hinunter und bremsen, um ihre Geschwindigkeit zu regulieren.
-STR_0606    :Eine Holzachterbahn nach älterer Art. Sie ist schnell, rauh, laut und gibt einem das Gefühl, außer Kontrolle zu sein, wobei man gelegentlich seitlichen Gs ausgesetzt und häufig „in der Luft“ ist
+STR_0603    :Eine Achterbahn im Holzstil mit einer Stahlschiene, die steile Abfahrten und Inversionen ermöglicht
+STR_0604    :Die Fahrgäste fahren in einer Einzelreihe auf einer engen Einschienenstrecke, wobei sie durch enge Inversionen und Richtungswechsel rasen
+STR_0605    :Die Fahrgäste rodeln eine sich schlängelnde Stahlbahn hinunter und bremsen, um ihre Geschwindigkeit zu regulieren
+STR_0606    :Eine Holzachterbahn nach älterer Art. Sie ist schnell, rau, laut und gibt einem das Gefühl, außer Kontrolle zu sein, wobei man gelegentlich seitlichen Gs ausgesetzt und häufig „in der Luft“ ist
 STR_0767    :Besucher {INT32}
 STR_0768    :Parkpfleger {INT32}
 STR_0769    :Mechaniker {INT32}
@@ -1059,7 +1059,7 @@ STR_1669    :{WINDOW_COLOUR_2}Zufriedenheit: {BLACK}{COMMA16}%
 STR_1670    :{WINDOW_COLOUR_2}Besucher gesamt: {BLACK}{COMMA32}
 STR_1671    :{WINDOW_COLOUR_2}Gesamtgewinn: {BLACK}{CURRENCY2DP}
 STR_1672    :Bremsen
-STR_1673    :Drehkontrolle umschalt.
+STR_1673    :Drehkontrolle umschalten
 STR_1674    :Bremsgeschwindigkeit
 STR_1675    :{POP16}{VELOCITY}
 STR_1676    :Geschwindigkeitsgrenze{NEWLINE}für Bremsen einstellen
@@ -1738,12 +1738,12 @@ STR_2382    :Land
 STR_2383    :Wasser
 STR_2384    :{WINDOW_COLOUR_2}Ihr Ziel:
 STR_2385    :{BLACK}Keins
-STR_2386    :{BLACK}Mindestens {COMMA16} Parkbesucher bis {MONTHYEAR} und eine Parkbewertung von mindestens 600 zu haben
+STR_2386    :{BLACK}Mindestens {COMMA32} Parkbesucher bis {MONTHYEAR} und eine Parkbewertung von mindestens 600 zu haben
 STR_2387    :{BLACK}Einen Verkehrswert von mindestens {POP16}{POP16}{CURRENCY} zu erreichen bis {PUSH16}{PUSH16}{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
 STR_2388    :{BLACK}Viel Spaß!
 STR_2389    :{BLACK}Bauen Sie Ihre(n) beste(n) {STRINGID}!
 STR_2390    :{BLACK}Mindestens 10 verschiedene Achterbahntypen in Ihrem Park zu betreiben, wobei jeder einen Nervenkitzelwert von mindestens 6,00 aufweisen muss
-STR_2391    :{BLACK}Mindestens {COMMA16} Parkbesucher zu erreichen. Die Parkbewertung darf zu keinem Zeitpunkt unter 700 fallen!
+STR_2391    :{BLACK}Mindestens {COMMA32} Parkbesucher zu erreichen. Die Parkbewertung darf zu keinem Zeitpunkt unter 700 fallen!
 STR_2392    :{BLACK}Monatliche Einkünfte durch Fahrttickets von mindestens {POP16}{POP16}{CURRENCY} zu erreichen
 STR_2393    :{BLACK}Mindestens 10 verschiedene Achterbahntypen in Ihrem Park zu betreiben, wobei jeder eine Mindestlänge von {LENGTH} und einen Nervenkitzelwert von mindestens 7,00 aufweisen muss
 STR_2394    :{BLACK}Alle 5 bereits teilweise gebauten Achterbahnen fertigzustellen, damit sie jeweils einen Nervenkitzelwert von {POP16}{POP16}{COMMA2DP32} erzielen
@@ -2099,39 +2099,6 @@ STR_3008    :{PEARLAQUA}ABC
 STR_3009    :{PALESILVER}ABC
 STR_3010    :Datei kann nicht geladen werden …
 STR_3011    :Datei enthält ungültige Daten
-STR_3012    :Autoscooter-Beat-Stil
-STR_3013    :Jahrmarktsorgelstil
-STR_3014    :Römischer Fanfarenstil
-STR_3015    :Orientstil
-STR_3016    :Mars-Stil
-STR_3017    :Dschungeltrommelnstil
-STR_3018    :Ägyptischer Stil
-STR_3019    :Spielzeuglandstil
-STR_3020    :
-STR_3021    :Weltraumstil
-STR_3022    :Horrorstil
-STR_3023    :Techno-Stil
-STR_3024    :Gemäßigter Stil
-STR_3025    :Sommerstil
-STR_3026    :Wasserstil
-STR_3027    :Wildwest-Stil
-STR_3028    :Jurassic-Stil
-STR_3029    :Rock-Stil
-STR_3030    :Ragtime-Stil
-STR_3031    :Fantasy-Stil
-STR_3032    :Rock-Stil 2
-STR_3033    :Eis-Stil
-STR_3034    :Schnee-Stil
-STR_3035    :Eigene Musik 1
-STR_3036    :Eigene Musik 2
-STR_3037    :Mittelalterstil
-STR_3038    :Stadtstil
-STR_3039    :Orgelstil
-STR_3040    :Maschinenstil
-STR_3041    :Moderner Stil
-STR_3042    :Piratenstil
-STR_3043    :Rock-Stil 3
-STR_3044    :Candyland-Stil
 STR_3045    :Wählen Sie den Musikstil aus
 STR_3047    :Die örtlichen Behörden verbieten den Abriss oder Änderungen an dieser Bahn
 STR_3048    :Marketingkampagnen von den örtlichen Behörden verboten
@@ -2358,7 +2325,7 @@ STR_3305    :{WINDOW_COLOUR_2}Monatliche Einkünfte:
 STR_3306    :{WINDOW_COLOUR_2}Monatlicher Gewinn:
 STR_3307    :{WINDOW_COLOUR_2}Mindestlänge:
 STR_3308    :{WINDOW_COLOUR_2}Nervenkitzelwert:
-STR_3309    :{WINDOW_COLOUR_2}{COMMA16}
+STR_3309    :{WINDOW_COLOUR_2}{COMMA32}
 STR_3310    :{WINDOW_COLOUR_2}{LENGTH}
 STR_3311    :{WINDOW_COLOUR_2}{COMMA2DP32}
 STR_3312    :{WINDOW_COLOUR_2}Attraktionen unter Beibehaltungsauftrag:
@@ -3326,7 +3293,7 @@ STR_6199    :Datum setzen
 STR_6200    :Datum zurücksetzen
 STR_6201    :{MONTH}
 STR_6202    :Stil des virtuellen Bodens:
-STR_6203    :Um vertikales Platzieren von Elementen zu vereinfachen, wird ein virtueller Boden eingeblendet, wenn Strg oder Shift gehalten wird
+STR_6203    :Um vertikales Platzieren von Elementen zu vereinfachen, wird ein virtueller Boden eingeblendet, wenn die Strg- oder Umschalttaste gehalten wird.
 STR_6215    :Konstruktion
 STR_6216    :Betrieb
 STR_6217    :Bahn- / Streckenverfügbarkeit
@@ -3595,7 +3562,7 @@ STR_6493    :Dieser Park wurde in einer späteren Version von OpenRCT2 gespeiche
 STR_6494    :Nach Fahrgeschäftstyp gruppieren
 STR_6495    :Fahrgeschäfte nach Fahrgeschäftstyp gruppieren, anstatt jedes Fahrzeug separat anzuzeigen.
 STR_6496    :{WINDOW_COLOUR_2}{STRINGID}
-STR_6497    :Klicken Sie auf eine Kachel, um ihre Kachelelemente anzuzeigen.{NEWLINE}Strg + Klick auf Kachel, um sie direkt auszuwählen.
+STR_6497    :Klicken Sie auf eine Kachel, um ihre Kachelelemente anzuzeigen.{NEWLINE}Strg + Klick auf ein Kachelelement, um es direkt auszuwählen.
 STR_6498    :Aktivieren, um quadratische Kartenform beizubehalten.
 STR_6499    :Fahrzeugtyp nicht vom Streckendesignformat unterstüzt
 STR_6500    :Streckenelemente nicht vom Streckendesignformat unterstüzt
@@ -3613,7 +3580,7 @@ STR_6511    :Null-G-Rolle (rechts)
 STR_6512    :Große Null-G-Rolle (l.)
 STR_6513    :Große Null-G-Rolle (r.)
 STR_6514    :Ungültige Höhe!
-STR_6515    :{BLACK}RollerCoaster Tycoon 1 nicht verknüpft - Es werden Fallback-Bilder verwendet.
+STR_6515    :{BLACK}RollerCoaster Tycoon 1 nicht verknüpft. Es werden Fallback-Bilder verwendet.
 STR_6516    :Eines oder mehrere der hinzugefügten Objekte benötigen eine Verknüpfung mit RollerCoaster Tycoon 1 für eine korrekte Anzeige. Es werden Fallback-Bilder verwendet.
 STR_6517    :Eines oder mehrere Objekte in diesem Park benötigen eine Verknüpfung mit RollerCoaster Tycoon 1 für eine korrekte Anzeige. Es werden Fallback-Bilder verwendet.
 STR_6518    :{BLACK}Zeigen Sie auf ein Szenario, um seine Beschreibung und sein Ziel zu sehen. Klicken Sie, um das Spiel zu beginnen.
@@ -3636,7 +3603,7 @@ STR_6534    :{WINDOW_COLOUR_2}Intensitätsfaktor: {BLACK}-{COMMA16}%
 STR_6535    :{WINDOW_COLOUR_2}Übelkeitsfaktor: {BLACK}-{COMMA16}%
 STR_6536    :Dieser Park wurde in einer späteren Version von OpenRCT2 gespeichert. Der Park wurde in v{INT32} gespeichert. Sie benutzen im Moment v{INT32}.
 STR_6537    :Normale Fußwege als Warteschlangen erlauben
-STR_6538    :Zeigt reguläre Pfade in der Warteschlangenliste im Fußwegfenster an
+STR_6538    :Zeigt normale Fußwege in der Warteschlangenliste im Fußwegfenster an
 STR_6539    :Bremse geschlossen
 STR_6540    :{WINDOW_COLOUR_2}Besonderen Dank an die folgenden Unternehmen für die Gestattung der Verwendung ihrer Abbilder:
 STR_6541    :{WINDOW_COLOUR_2}Rocky Mountain Construction Group, Josef Wiegand GmbH & Co. KG
@@ -3646,33 +3613,81 @@ STR_6544    :Darlehen kann nicht negativ sein!
 STR_6545    :RCT1-Zinsberechnung benutzen
 STR_6546    :Den Zinsberechnungsalgorithmus von RollerCoaster Tycoon 1 verwenden, welcher einen festen Prozentsatz von ca. 1,33% benutzt.
 STR_6547    :Jede Szenerie
-
+STR_6548    :Geländer an Kreuzung zeigen
+STR_6549    :Kompabilitätsobjekte können nicht ausgewählt werden!
+STR_6550    :Dieser Eintrag wird für die Abwärtskompabilität mit alten oder beschädigten Objekten bereitgestellt. Er kann nicht ausgewählt werden. Er kann nur abgewählt werden.
 STR_6551    :Armeegrün
-STR_6552    :Honigtau
+STR_6552    :Honigmelone
 STR_6553    :Loh
-STR_6554    :Kastanienbraun
+STR_6554    :Kastanienrot
 STR_6555    :Koralle
 STR_6556    :Waldgrün
 STR_6557    :Chartreuse
-STR_6558    :Jägergrün
+STR_6558    :Jagdgrün
 STR_6559    :Seladon
-STR_6560    :Limettengrün
+STR_6560    :Lindgrün
 STR_6561    :Sepia
 STR_6562    :Pfirsich
-STR_6563    :Immergrün
+STR_6563    :Helllavendel
 STR_6564    :Blaugrün
 STR_6565    :Meerschaumgrün
 STR_6566    :Violett
 STR_6567    :Lavendel
 STR_6568    :Pastellorange
 STR_6569    :Tiefes Wasser
-STR_6570    :Pastellpink
+STR_6570    :Pastellrosa
 STR_6571    :Umbra
 STR_6572    :Beige
 STR_6573    :Unsichtbar
 STR_6574    :Leere
 STR_6575    :Erlaube spezielle Farbschemas
 STR_6576    :Fügt Sonderfarben zur Farbpalette hinzu
+STR_6577    :Blockbremsengeschwindigkeit
+STR_6578    :Geschwindigkeitsbegrenzung für Blockbremsen festlegen. Im Blockbereichsmodus werden benachbarte Bremsen mit einer langsameren Geschwindigkeit mit der Blockbremse verknüpft.
+STR_6579    :Blockbremsen werden zur Standardgeschwindigkeit gesetzt, wenn sie als Streckenentwurf gespeichert werden
+STR_6580    :Zurücksetzen
+STR_6581    :Sind Sie sich sicher, dass Sie alle Tastenkürzel in dieser Registerkarte zurücksetzen wollen?
+STR_6582    :Tastenkürzelfenster öffnen
+STR_6583    :{WINDOW_COLOUR_2}Umgekehrte Züge
+STR_6584    :Auswählen, um Züge rückwärts fahren zu lassen
+STR_6585    :Änderungen können nicht ausgeführt werden …
+STR_6586    :OpenRCT2
+STR_6587    :Das OpenRCT2-Titelthema ist ein Werk von Allister Brimble, {NEWLINE}lizenziert unter CC BY-SA 4.0.
+STR_6588    :Vielen Dank an Herman Riddering für die Erlaubnis, den 35er Voigt aufzunehmen.
+STR_6589    :Schaltflächen auf der linken Seite anzeigen
+STR_6590    :Schaltflächen (z.B. zum Schließen des Fensters) auf der linken anstatt auf der rechten Seite der Titelleiste anzeigen.
+STR_6591    :Der Mitarbeiter repariert gerade ein Fahrgeschäft und kann deshalb nicht entlassen werden.
+STR_6592    :Der Mitarbeiter inspiziert gerade ein Fahrgeschäft und kann deshalb nicht entlassen werden.
+STR_6593    :Parkzäune entfernen
+STR_6594    :Kachelinspektor: Wandneigung umschalten
+STR_6595    :{WINDOW_COLOUR_2}Autor: {BLACK}{STRING}
+STR_6596    :{WINDOW_COLOUR_2}Autoren: {BLACK}{STRING}
+STR_6597    :Ungültiger Parameter
+STR_6598    :Wert liegt außerhalb des zulässigen Bereichs
+STR_6599    :Geisterelement konnte nicht gefunden werden
+STR_6600    :Ballon konnte nicht gefunden werden
+STR_6601    :Mitarbeiter konnte nicht gefunden werden
+STR_6602    :Fahrgeschäft/Attraktion konnte nicht gefunden werden
+STR_6603    :Attraktionseingang konnte nicht gefunden werden
+STR_6604    :Spieler konnte nicht gefunden werden
+STR_6605    :Eingangselement konnte nicht gefunden werden
+STR_6606    :Oberflächenelement konnte nicht gefunden werden
+STR_6607    :Kachelelement konnte nicht gefunden werden
+STR_6608    :Streckenelement konnte nicht gefunden werden
+STR_6609    :Streckenblock konnte nicht gefunden werden
+STR_6610    :Wegelement konnte nicht gefunden werden
+STR_6611    :Wandelement konnte nicht gefunden werden
+STR_6612    :Bannerelement konnte nicht gefunden werden
+STR_6613    :Objekt neu laden
+STR_6614    :Parkeintrittsgeld kann nicht geändert werden
+STR_6615    :Streckenabschnitt auf dieser Kachel benötigt Wasser
+STR_6616    :Aktion ungültig für diesen Personaltyp
+STR_6617    :Kachelelement kann nicht mit sich selbst vertauscht werden
+STR_6618    :Objekt kann weder eingeschränkt werden noch kann die Einschränkung zurückgenommen werden …
+STR_6619    :Objekttyp kann nicht eingeschränkt werden!
+STR_6620    :Objekt nicht gefunden!
+STR_6621    :Einschränken
+STR_6622    :Objekt auf den Szenario-Editor und dem Sandkastenmodus einschränken
 
 #############
 # Scenarios #
@@ -4335,7 +4350,7 @@ STR_DTLS    :Sie sind ein erfolgreicher Geschäftsmann, der sich eine vierjähri
 <South America - Inca Lost City>
 STR_SCNR    :Südamerika - Verlorene Stadt der Inka
 STR_PARK    :Gründer der Verlorenen Stadt
-STR_DTLS    :Um der örtlichen Tourismusindustrie den Rücken zu stärken, müssen Sie einen Vergnügungspark konstruieren, der sich harmonisch in die Umgebung einfügt - Höhenbegrenzungen inklusive.
+STR_DTLS    :Um der örtlichen Tourismusindustrie den Rücken zu stärken, müssen Sie einen Vergnügungspark konstruieren, der sich harmonisch in die Umgebung einfügt.
 
 <South America - Rain Forest Plateau>
 STR_SCNR    :Südamerika - Regenwaldplateau

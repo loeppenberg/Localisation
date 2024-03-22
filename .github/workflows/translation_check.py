@@ -43,7 +43,7 @@ KEYS_TO_IGNORE = ['STR_0000', 'STR_0001', 'STR_0824', 'STR_0839', 'STR_0840', 'S
                   'STR_6360']
 
 languages = []
-
+STR_NUMBER_RE = re.compile("STR_\d+")
 
 def get_arg_parser():
     """ Command line arguments """
@@ -105,8 +105,13 @@ def file_to_dict(filename):
             key = split[0].strip()
             if key in SPECIAL_KEYS:
                 key = previous_group_name + key
+            elif not STR_NUMBER_RE.match(key):
+                print(f'[{os.path.basename(filename)}]: {key} does not match STR_XXXX pattern')
             value = ':'.join(split[1:]).strip()
-            translations[key] = value
+            if key in translations:
+                print(f'[{os.path.basename(filename)}]: {key} is repeated')
+            else:
+                translations[key] = value
 
     return translations
 
@@ -183,7 +188,7 @@ def prepare_translation_report(master_dir, branch_dir, reference_file):
                                          '(e.g. STR_9999 is in `en-GB` but is not available in given language)')
     not_needed = prepare_spoiler('Not needed', 'The translation file contains entries that are not in `en-GB` '
                                                'and should be removed '
-                                               '(e.g. STR_9999 exits in given language but is not in `en-GB`)')
+                                               '(e.g. STR_9999 exists in given language but is not in `en-GB`)')
     same = prepare_spoiler('Same', 'The translation and source string is exactly the same.  '
                                    '(e.g. STR_9999 is `Umbrella` in both `en-GB` and given language). '
                                    'This may be desired in some cases (e.g. `April` is the same in English and German)')

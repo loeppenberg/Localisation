@@ -970,7 +970,7 @@ STR_1581    :
 STR_1582    :
 STR_1583    :
 STR_1584    :“To zdjęcie z przejażdżki na {STRINGID} było naprawdę opłacalne”
-STR_1585    :“To zdjęcie z przejażdżki na {STRINGID} było naprawdę opłacalneENDQUOTES}
+STR_1585    :“To zdjęcie z przejażdżki na {STRINGID} było naprawdę opłacalne”
 STR_1586    :“To zdjęcie z przejażdżki na {STRINGID} było naprawdę opłacalne”
 STR_1587    :“Ten precel z {STRINGID} był naprawdę opłacalny”
 STR_1588    :“Ta gorąca czekolada z {STRINGID} była naprawdę opłacalna”
@@ -1735,12 +1735,12 @@ STR_2382    :Teren
 STR_2383    :Woda
 STR_2384    :{WINDOW_COLOUR_2}Twój cel:
 STR_2385    :{BLACK}Brak
-STR_2386    :{BLACK}Miej przynajmniej {COMMA16} gości w parku na koniec roku {MONTHYEAR} przy ocenie parku wynoszącej przynajmniej 600
+STR_2386    :{BLACK}Miej przynajmniej {COMMA32} gości w parku na koniec roku {MONTHYEAR} przy ocenie parku wynoszącej przynajmniej 600
 STR_2387    :{BLACK}Uzyskaj wartość parku nie mniejszą niż {POP16}{POP16}{CURRENCY} na koniec {PUSH16}{PUSH16}{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
 STR_2388    :{BLACK}Baw się dobrze!
 STR_2389    :{BLACK}Wybuduj tę atrakcję ({STRINGID}) najlepiej jak potrafisz!
 STR_2390    :{BLACK}Zbuduj w parku 10 różnych działających kolejek górskich, każda o współczynniku emocji wynoszącym przynajmniej 6.00
-STR_2391    :{BLACK}Miej przynajmniej {COMMA16} gości w swoim parku. Nie pozwól aby ocena parku spadła poniżej 700 nawet na chwilę!
+STR_2391    :{BLACK}Miej przynajmniej {COMMA32} gości w swoim parku. Nie pozwól aby ocena parku spadła poniżej 700 nawet na chwilę!
 STR_2392    :{BLACK}Uzyskaj miesięczny przychód ze sprzedaży biletów na atrakcje w wysokości przynajmniej {POP16}{POP16}{CURRENCY}
 STR_2393    :{BLACK}Zbuduj w parku 10 różnych działających kolejek górskich, każda o współczynniku emocji wynoszącym przynajmniej 7.00 i nie krótsza niż {LENGTH}
 STR_2394    :{BLACK}Dokończ budowę 5 częściowo już wybudowanych kolejek górskich, projektując je tak aby współczynnik emocji każdej z nich nie był mniejszy niż {POP16}{POP16}{COMMA2DP32}
@@ -2095,39 +2095,6 @@ STR_3008    :{PEARLAQUA}ABC
 STR_3009    :{PALESILVER}ABC
 STR_3010    :Nie można wczytać pliku…
 STR_3011    :Plik zawiera nieprawidłowe dane
-STR_3012    :Styl zderzaków (autodromy)
-STR_3013    :Styl organów wesołego miasteczka
-STR_3014    :Styl rzymskich fanfarów
-STR_3015    :Styl orientalny
-STR_3016    :Styl marsjański
-STR_3017    :Styl bębnów dżungli
-STR_3018    :Styl egipski
-STR_3019    :Styl krainy zabawek
-STR_3020    :
-STR_3021    :Styl kosmiczny
-STR_3022    :Styl horror
-STR_3023    :Styl techno
-STR_3024    :Styl delikatny
-STR_3025    :Styl letni
-STR_3026    :Styl wodny
-STR_3027    :Styl dziki zachód
-STR_3028    :Styl jurajski
-STR_3029    :Styl rockowy
-STR_3030    :Styl ragtime
-STR_3031    :Styl fantasty
-STR_3032    :Styl rockowy 2
-STR_3033    :Styl lodowy
-STR_3034    :Styl śnieżny
-STR_3035    :Muzyka niestandardowa 1
-STR_3036    :Muzyka niestandardowa 2
-STR_3037    :Styl średniowieczny
-STR_3038    :Styl uliczny
-STR_3039    :Styl organowy
-STR_3040    :Styl mechaniczny
-STR_3041    :Styl nowoczesny
-STR_3042    :Styl piracki
-STR_3043    :Styl rockowy 3
-STR_3044    :Styl cukierkowy
 STR_3045    :Wybierz styl muzyczny
 STR_3047    :Władze lokalne zabraniają rozbiórki lub modyfikacji tej atrakcji
 STR_3048    :Kampanie marketingowe zabronione przez władze lokalne
@@ -2354,7 +2321,7 @@ STR_3305    :{WINDOW_COLOUR_2}Miesięczny przychód:
 STR_3306    :{WINDOW_COLOUR_2}Miesięczny zysk:
 STR_3307    :{WINDOW_COLOUR_2}Minimalna długość:
 STR_3308    :{WINDOW_COLOUR_2}Wskaźnik emocji:
-STR_3309    :{WINDOW_COLOUR_2}{COMMA16}
+STR_3309    :{WINDOW_COLOUR_2}{COMMA32}
 STR_3310    :{WINDOW_COLOUR_2}{LENGTH}
 STR_3311    :{WINDOW_COLOUR_2}{COMMA2DP32}
 STR_3312    :{WINDOW_COLOUR_2}Przejażdżki/atrakcje według następującej kolejności:

@@ -93,7 +93,7 @@
     },
     "toontowner.scenery_small.ttrfwd07": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2dlc.scenery_small.bigpanda": {
         "reference-name": "Giant Panda",
@@ -101,7 +101,7 @@
     },
     "toontowner.scenery_small.ttrfwd08": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2dlc.scenery_small.pandagr": {
         "reference-name": "Bamboo Shoots",
@@ -113,7 +113,7 @@
     },
     "toontowner.scenery_small.ttrfwd03": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "official.scenery_small.support_structure_half": {
         "reference-name": "Support Structure",
@@ -121,7 +121,7 @@
     },
     "toontowner.scenery_small.ttpirf08": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.xxbbbr01": {
         "reference-name": "Base Block",
@@ -129,43 +129,43 @@
     },
     "toontowner.scenery_small.ttpirf02": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrftl02": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrftl04": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttpirf03": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrfwd01": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrfwd06": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrftl08": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttpirf07": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrfwd02": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrftl07": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrfgl02": {
         "reference-name": "Glass Roof",
@@ -177,15 +177,15 @@
     },
     "toontowner.scenery_small.ttrfwd04": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttpirf04": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.ttrftl03": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "toontowner.scenery_small.xxbbbr01_fix": {
         "reference-name": "Base Block",
@@ -5085,7 +5085,7 @@
     },
     "rct2.scenery_small.roof13": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tbn": {
         "reference-name": "Bone",
@@ -5117,7 +5117,7 @@
     },
     "rct2.scenery_small.sumrf": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tcc": {
         "reference-name": "Chinese Cedar Tree",
@@ -5161,7 +5161,7 @@
     },
     "rct2.scenery_small.minroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tg8": {
         "reference-name": "Gardens",
@@ -5237,7 +5237,7 @@
     },
     "rct2.scenery_small.pagroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tb1": {
         "reference-name": "White Bishop",
@@ -5289,7 +5289,7 @@
     },
     "rct2.scenery_small.roof3": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.cwfcrv33": {
         "reference-name": "Curved Block",
@@ -5301,7 +5301,7 @@
     },
     "rct2.scenery_small.roof7": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tsh1": {
         "reference-name": "Shrub",
@@ -5309,11 +5309,11 @@
     },
     "rct2.scenery_small.pirroof2": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.roof12": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tml": {
         "reference-name": "Logs",
@@ -5349,7 +5349,7 @@
     },
     "rct2.scenery_small.roof5": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tsm": {
         "reference-name": "Snowman",
@@ -5393,7 +5393,7 @@
     },
     "rct2.scenery_small.roof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tg16": {
         "reference-name": "Gardens",
@@ -5433,7 +5433,7 @@
     },
     "rct2.scenery_small.romroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.ball2": {
         "reference-name": "American Football",
@@ -5477,7 +5477,7 @@
     },
     "rct2.scenery_small.jngroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tg4": {
         "reference-name": "Gardens",
@@ -5493,7 +5493,7 @@
     },
     "rct2.scenery_small.roof6": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.brbase2": {
         "reference-name": "Base Block",
@@ -5689,7 +5689,7 @@
     },
     "rct2.scenery_small.roof10": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tjp1": {
         "reference-name": "Plant",
@@ -5869,7 +5869,7 @@
     },
     "rct2.scenery_small.roof8": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tg11": {
         "reference-name": "Gardens",
@@ -5917,7 +5917,7 @@
     },
     "rct2.scenery_small.roof14": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tal": {
         "reference-name": "Alligator Shaped Tree",
@@ -5993,7 +5993,7 @@
     },
     "rct2.scenery_small.roof11": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tas1": {
         "reference-name": "Candy Tree",
@@ -6025,7 +6025,7 @@
     },
     "rct2.scenery_small.roof2": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tjt4": {
         "reference-name": "Tree",
@@ -6057,7 +6057,7 @@
     },
     "rct2.scenery_small.roof4": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.ts4": {
         "reference-name": "Ornamental Tree",
@@ -6065,7 +6065,7 @@
     },
     "rct2.scenery_small.spcroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tsf1": {
         "reference-name": "Giant Snowflake",
@@ -6245,7 +6245,7 @@
     },
     "rct2.scenery_small.roof9": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.tnss": {
         "reference-name": "Snow-covered Norway Spruce Tree",
@@ -6285,7 +6285,7 @@
     },
     "rct2.scenery_small.pirroof1": {
         "reference-name": "Roof",
-        "name": "Roof"
+        "name": "Дах"
     },
     "rct2.scenery_small.totem1": {
         "reference-name": "Totem Pole",
@@ -9897,9 +9897,9 @@
     },
     "rct1.ride.toilets": {
         "reference-name": "Toilets",
-        "name": "Toilets",
+        "name": "Туалети",
         "reference-description": "Basic toilets housed in a prefabricated concrete building",
-        "description": "Basic toilets housed in a prefabricated concrete building"
+        "description": "Звичайні туалети в будівлі з цементу"
     },
     "rct1aa.ride.floorless_twister_trains": {
         "reference-name": "Floorless Twister Trains",

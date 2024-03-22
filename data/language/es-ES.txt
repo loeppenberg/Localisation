@@ -1738,12 +1738,12 @@ STR_2382    :Tierra
 STR_2383    :Agua
 STR_2384    :{WINDOW_COLOUR_2}Tu objetivo:
 STR_2385    :{BLACK}Ninguno
-STR_2386    :{BLACK}Tener al menos {COMMA16} visitantes en tu parque a finales de {MONTHYEAR}, con una valoración del parque de al menos 600
+STR_2386    :{BLACK}Tener al menos {COMMA32} visitantes en tu parque a finales de {MONTHYEAR}, con una valoración del parque de al menos 600
 STR_2387    :{BLACK}Conseguir un valor del parque {POP16}{POP16}{CURRENCY} a final de {PUSH16}{PUSH16}{PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
 STR_2388    :{BLACK}¡Diviértete!
 STR_2389    :{BLACK}¡Construye el mejor {STRINGID} que puedas!
 STR_2390    :{BLACK}Tener al menos 10 tipos de montañas rusas distintas operando en el parque, cada una con un valor de emoción de al menos 6.00
-STR_2391    :{BLACK}Tener al menos {COMMA16} visitantes en tu parque. ¡No dejes que la valoración baje de 700 en ningún momento!
+STR_2391    :{BLACK}Tener al menos {COMMA32} visitantes en tu parque. ¡No dejes que la valoración baje de 700 en ningún momento!
 STR_2392    :{BLACK}Conseguir unos ingresos mensuales por venta de entradas a atracciones de al menos {POP16}{POP16}{CURRENCY}
 STR_2393    :{BLACK}Tener al menos 10 tipos de montañas rusas distintas operando en el parque, cada una con una longitud mínima de {LENGTH}, y un valor de emoción de al menos 7.00
 STR_2394    :{BLACK}Terminar de construir 5 de las montañas rusas no terminadas en este parque, diseñándolas de modo que tengan un valor de emoción de al menos {POP16}{POP16}{COMMA2DP32} cada una
@@ -2098,39 +2098,6 @@ STR_3008    :{PEARLAQUA}ABC
 STR_3009    :{PALESILVER}ABC
 STR_3010    :No se pudo cargar el archivo…
 STR_3011    :El archivo contiene datos no válidos
-STR_3012    :Estilo coches de choque
-STR_3013    :Estilo Órgano de feria
-STR_3014    :Estilo fanfarria romana
-STR_3015    :Estilo oriental
-STR_3016    :Estilo marciano
-STR_3017    :Estilo tambores jungla
-STR_3018    :Estilo egipcio
-STR_3019    :Estilo juguete
-STR_3020    :
-STR_3021    :Estilo espacio
-STR_3022    :Estilo terror
-STR_3023    :Estilo tecno
-STR_3024    :Estilo suave
-STR_3025    :Estilo verano
-STR_3026    :Estilo acuático
-STR_3027    :Estilo salvaje oeste
-STR_3028    :Estilo jurásico
-STR_3029    :Estilo rock
-STR_3030    :Estilo ragtime
-STR_3031    :Estilo fantasía
-STR_3032    :Estilo rock 2
-STR_3033    :Estilo hielo
-STR_3034    :Estilo nieve
-STR_3035    :Música personalizada 1
-STR_3036    :Música personalizada 2
-STR_3037    :Estilo medieval
-STR_3038    :Estilo urbano
-STR_3039    :Estilo órgano
-STR_3040    :Estilo mecánico
-STR_3041    :Estilo moderno
-STR_3042    :Estilo pirata
-STR_3043    :Estilo rock 3
-STR_3044    :Estilo caramelo
 STR_3045    :Selecciona el estilo de música a reproducir
 STR_3047    :La autoridad local no permite demoler o modificar esta atracción
 STR_3048    :Campañas de marketing prohibidas por la autoridad local
@@ -2140,7 +2107,7 @@ STR_3051    :Golf agujero C
 STR_3052    :Golf agujero D
 STR_3053    :Golf agujero E
 STR_3054    :Cargando…
-STR_3058    :Paredes de ladrillo
+STR_3058    :Muros de ladrillo
 STR_3059    :Arbusto
 STR_3060    :Bloque de hielo
 STR_3061    :Cerca de madera
@@ -2161,7 +2128,7 @@ STR_3075    :{RED}ADVERTENCIA: ¡La valoración del parque ha caído por debajo 
 STR_3076    :{RED}ADVERTENCIA FINAL: ¡La valoración del parque ha caído por debajo de 700!{NEWLINE}En 7 días tu parque estará cerrado a menos que subas la valoración.
 STR_3077    :{RED}CLAUSURA: ¡Tu parque ha sido cerrado!
 STR_3090    :Seleccionar estilo de la entrada, salida y estación
-STR_3091    :¡No estas autorizado para remover esta sección!
+STR_3091    :¡No estas autorizado para eliminar esta sección!
 STR_3092    :¡No estas autorizado para modificar la estación de esta atracción!
 STR_3093    :{WINDOW_COLOUR_2}Favorita: {BLACK}{STRINGID}
 STR_3094    :Ninguna
@@ -2357,7 +2324,7 @@ STR_3305    :{WINDOW_COLOUR_2}Ingreso mensual:
 STR_3306    :{WINDOW_COLOUR_2}Ganancia mensual:
 STR_3307    :{WINDOW_COLOUR_2}Longitud mínima:
 STR_3308    :{WINDOW_COLOUR_2}Rango Satisfacción:
-STR_3309    :{WINDOW_COLOUR_2}{COMMA16}
+STR_3309    :{WINDOW_COLOUR_2}{COMMA32}
 STR_3310    :{WINDOW_COLOUR_2}{LENGTH}
 STR_3311    :{WINDOW_COLOUR_2}{COMMA2DP32}
 STR_3312    :{WINDOW_COLOUR_2}Atracciones/Juegos con orden de preservación:
@@ -2845,7 +2812,7 @@ STR_5640    :Administrar grupos
 STR_5641    :Grupo por defecto:
 STR_5642    :Grupo
 STR_5643    :Añadir Grupo
-STR_5644    :Remover Grupo
+STR_5644    :Eliminar Grupo
 STR_5645    :Chat
 STR_5646    :Ajustar terreno
 STR_5647    :Alternar pausa
@@ -3085,7 +3052,7 @@ STR_5925    :Detalles de Sendero
 STR_5926    :Detalles de Vía
 STR_5927    :Detalles de Escenario
 STR_5928    :Detalles de Entrada
-STR_5929    :Detalles de Valla
+STR_5929    :Detalles de Muro
 STR_5930    :Detalles de Escenario Grande
 STR_5931    :Detalles de Bandera
 STR_5932    :Detalles de Elemento Corrupto
@@ -3095,8 +3062,8 @@ STR_5935    :Borde del Terreno: {BLACK}{STRINGID}
 STR_5936    :Dueño de la Tierra: {BLACK}{STRINGID}
 STR_5937    :Sin dueño y no a la venta
 STR_5938    :Nivel de Agua: {BLACK}{COMMA16}
-STR_5939    :Remover vallas parque
-STR_5940    :Restaurar vallas parque
+STR_5939    :Eliminar vallas del parque
+STR_5940    :Restaurar vallas del parque
 STR_5941    :Altura Base:
 STR_5942    :Nombre Sendero: {BLACK}{STRINGID}
 STR_5943    :Adiciones: {BLACK}{STRINGID}
@@ -3135,7 +3102,7 @@ STR_5975    :Pendiente:
 STR_5976    :Plano
 STR_5977    :Lado derecho hacia arriba
 STR_5978    :Lado izquierdo hacia arriba
-STR_5979    :Tipo de valla: {BLACK}{COMMA16}
+STR_5979    :Tipo de muro: {BLACK}{COMMA16}
 STR_5980    :Texto de bandera: {BLACK}{STRINGID}
 STR_5981    :No es una bandera
 STR_5982    :Tipo de escenario grande: {BLACK}{COMMA16}
@@ -3322,7 +3289,7 @@ STR_6173    :Introduzca el nombre a buscar:
 STR_6188    :Vomito
 STR_6189    :Pato
 STR_6191    :Superficie
-STR_6192    :Pared
+STR_6192    :Muro
 STR_6193    :{COMMA16} huésped
 STR_6194    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA16} huésped
 STR_6195    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA16} huésped
@@ -3439,7 +3406,7 @@ STR_6328    :Con esta opción activada, las capturas gigantes tendrán un fondo 
 STR_6329    :{STRING}{STRINGID}
 STR_6330    :Descargando [{STRING}] desde {STRING} ({COMMA16} / {COMMA16})
 STR_6331    :Crear patos
-STR_6332    :Remover patos
+STR_6332    :Eliminar patos
 STR_6333    :Incrementar factor de escala
 STR_6334    :Disminuir factor de escala
 STR_6336    :Inspector de cuadrícula: Copiar elemento
@@ -3688,6 +3655,46 @@ STR_6579    :Los frenos bloqueantes se establecerán a la velocidad predetermina
 STR_6580    :Restablecer
 STR_6581    :¿Estás seguro de que quieres restablecer todos los atajos de teclado en esta pestaña?
 STR_6582    :Abrir ventana de atajos de teclado
+STR_6583    :{WINDOW_COLOUR_2}Trenes Invertidos
+STR_6584    :Selecciona para que los trenes viajen marcha atrás
+STR_6585    :No se puede realizar cambios…
+STR_6586    :OpenRCT2
+STR_6587    :El tema principal de OpenRTC es una obra de Allister Brimble,{NEWLINE}licenciada bajo CC BY-SA 4.0.
+STR_6588    :Gracias a Herman Riddering por permitirnos grabar el 35er Voigt.
+STR_6589    :Mostrar botones de ventana a la izquierda
+STR_6590    :Mostrar los botones de ventana (como el de cerrar la ventana) a la izquierda de la barra de título en lugar de a la derecha.
+STR_6591    :El empleado está reparando una atracción y no puede ser despedido.
+STR_6592    :El empleado está inspeccionando una atracción y no puede ser despedido.
+STR_6593    :Eliminar vallas del parque
+STR_6594    :Inspector de cuadricula: Alternar inclinación del muro
+STR_6595    :{WINDOW_COLOUR_2}Autor: {BLACK}{STRING}
+STR_6596    :{WINDOW_COLOUR_2}Autores: {BLACK}{STRING}
+STR_6597    :Parámetro no válido
+STR_6598    :Valor fuera de rango
+STR_6599    :Elemento fantasma no encontrado
+STR_6600    :Globo no encontrado
+STR_6601    :Empleado no encontrado
+STR_6602    :Atracción no encontrada
+STR_6603    :Entrada de objeto de atracción no encontrada
+STR_6604    :Jugador no encontrado
+STR_6605    :Elemento de entrada no encontrado
+STR_6606    :Elemento de superficie no encontrado
+STR_6607    :Elemento de casilla no encontrado
+STR_6608    :Elemento de vía no encontrado
+STR_6609    :Bloque de vía no encontrado
+STR_6610    :Elemento de camino no encontrado
+STR_6611    :Elemento de muro no encontrado
+STR_6612    :Elemento de banner no encontrado
+STR_6613    :Recargar objeto
+STR_6614    :No se puede cambiar el precio de la entrada al parque
+STR_6615    :La vía en esta casilla necesita agua
+STR_6616    :Acción no válida para ese tipo de trabajador
+STR_6617    :No se puede intercambiar el elemento de la casilla consigo mismo
+STR_6618    :No se puede poner ni quitar restricción al objeto…
+STR_6619    :¡Este tipo de objeto no puede ser restringido!
+STR_6620    :¡Objeto no encontrado!
+STR_6621    :Restringir
+STR_6622    :Restringir objeto al Editor de Escenarios y el modo Sandbox.
 
 ##############
 # Escenarios #
@@ -4352,7 +4359,7 @@ STR_DTLS    :Eres un exitoso magnate de los negocios que se ha tomado cuatro añ
 <South America - Inca Lost City>
 STR_SCNR    :Sudamérica; Ciudad perdida inca
 STR_PARK    :Fundador de la ciudad perdida
-STR_DTLS    :Para impulsar aún más el turismo local, tienes que construir un parque que esté a tono con el entorno que lo rodea, y respetando las restricciones de altura.
+STR_DTLS    :Para impulsar aún más el turismo local, tienes que construir un parque que esté en sintonía con el entorno que lo rodea.
 
 <South America - Rain Forest Plateau>
 STR_SCNR    :Sudamérica - Meseta selvática
